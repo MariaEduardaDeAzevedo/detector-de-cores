@@ -11,3 +11,5 @@ método VideoCapture, se for de sua preferência.
 - As máscaras configuradas foram postas em um arquivo JSON, localizado na pasta files, que é importado dentro no script principal, main.py.
 
 - Também existem algumas imagens que podem ser utilizadas para configurar as máscaras.
+
+#### Para contribuir adicionando máscaras, olhe o arquivo CONTRIBUTING.md
