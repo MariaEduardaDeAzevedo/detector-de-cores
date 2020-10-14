@@ -21,7 +21,7 @@ Para executar o programa, você deve clonar este repositório, instalar as depen
 $ git clone https://github.com/MariaEduardaDeAzevedo/detector-de-cores.git
 $ cd detector-de-cores
 
-# Opcional: Crie e ative um ambiente Python isolado para o aplicação.
+# Opcional: Crie e ative um ambiente Python isolado para a aplicação.
 $ pip install virtualenv # Com --user se não tiver permissões de administrador.
 $ virtualenv -p python3 venv
 $ source venv/bin/activate

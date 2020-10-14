@@ -1,7 +1,7 @@
 import cv2 as cv
 import functions
-import os
 import json
+import os
 
 mask_path = os.path.abspath(os.path.join(
     os.path.dirname(__file__),
