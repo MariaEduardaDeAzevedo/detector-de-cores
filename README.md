@@ -12,4 +12,23 @@ método VideoCapture, se for de sua preferência.
 
 - Também existem algumas imagens que podem ser utilizadas para configurar as máscaras.
 
+#### Executando o Programa
+
+Para executar o programa, você deve clonar este repositório, instalar as dependências e executar o arquivo principal (main):
+
+```bash
+# Clonar o repositório.
+$ git clone https://github.com/MariaEduardaDeAzevedo/detector-de-cores.git
+$ cd detector-de-cores
+
+# Opcional: Crie e ative um ambiente Python isolado para o aplicação.
+$ pip install virtualenv # Com --user se não tiver permissões de administrador.
+$ virtualenv -p python3 venv
+$ source venv/bin/activate
+
+# Instalar as dependências e executar o programa.
+$ python -m pip install -r requirements.txt
+$ python detector_de_cores/main.py
+```
+
 #### Para contribuir adicionando máscaras, olhe o arquivo CONTRIBUTING.md

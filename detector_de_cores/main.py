@@ -1,8 +1,15 @@
 import cv2 as cv
 import functions
+import os
 import json
 
-file = open('files/mask.json', 'r')
+mask_path = os.path.abspath(os.path.join(
+    os.path.dirname(__file__),
+    '..',
+    'files',
+    'mask.json'
+))
+file = open(mask_path, 'r')
 
 masks = json.load(file)
 
