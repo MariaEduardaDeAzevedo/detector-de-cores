@@ -8,7 +8,7 @@ Para adicionar uma nova máscara de cor, siga os passos:
 4. Feito isso, adicione os valores da mascara ao arquivo mask.json, no formato do seguinte objeto:
   ```
   "nome_da_cor": {
-        "min" : [h, s, v], //valores HSV minimos (indicados por "Min" no painel)
-        "max" : [h, s, v]  //valores HSV minimos (indicados por "Max" no painel)
+        "min" : [h, s, v], //valores HSV mínimos (indicados por "Min" no painel)
+        "max" : [h, s, v]  //valores HSV máximos (indicados por "Max" no painel)
     },
   ```
