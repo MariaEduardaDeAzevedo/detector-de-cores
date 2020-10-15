@@ -31,4 +31,4 @@ $ python -m pip install -r requirements.txt
 $ python detector_de_cores/main.py
 ```
 
-#### Para contribuir adicionando máscaras, olhe o arquivo CONTRIBUTING.md
+#### Para contribuir adicionando máscaras, olhe o [CONTRIBUTING.md](./CONTRIBUTING.md)
