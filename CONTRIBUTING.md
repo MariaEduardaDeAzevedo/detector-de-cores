@@ -12,3 +12,19 @@ Para adicionar uma nova máscara de cor, siga os passos:
         "max" : [h, s, v]  //valores HSV máximos (indicados por "Max" no painel)
     },
   ```
+
+## Formatando o Código
+
+Este repositório utiliza o [black](https://github.com/psf/black) para formatar o código fonte em Python.
+
+Novas contribuições devem estar de acordo com o formatador.
+
+Você pode utilizar o `pip` para instalar o black:
+```bash
+$ python -m pip install black # Incluir --user se for instalar globalmente sem permissão de administrador.
+```
+
+Para formatar, executar o black na pasta contendo o código fonte:
+```bash
+$ black detector_de_cores
+```
