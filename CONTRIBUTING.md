@@ -26,5 +26,19 @@ $ python -m pip install black # Incluir --user se for instalar globalmente sem p
 
 Para formatar, executar o black na pasta contendo o código fonte:
 ```bash
-$ black detector_de_cores
+$ black detector_de_cores tests
+```
+
+## Executando Testes
+
+Este repositório utiliza o [pytest](https://docs.pytest.org/en/stable/) para testar o código fonte em Python.
+
+Você pode utilizar o `pip` para instalar o pytest:
+```bash
+$ python -m pip install pytest # Incluir --user se for instalar globalmente sem permissão de administrador.
+```
+
+Para executar os testes:
+```bash
+$ pytest tests
 ```
